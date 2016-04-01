@@ -1,0 +1,117 @@
+/********************
+  GENERAL STYLING
+********************/
+	body, p {
+		font-family: 'Merriweather', serif;
+		border: 0;
+	}
+
+	#CompanyLogo {
+		max-height: 13em;
+		border-radius: 100%;
+		border: #E6AE00 solid 4px;
+	}
+
+	#navbarLinks {
+		font-size: .90em;
+		margin: -5px 0 0;
+		font-weight: normal;
+		font-family: 'Raleway', sans-serif;
+		text-align: center;
+	}
+
+	.companyName {
+		color: #D46700;
+		font-family: 'Raleway', sans-serif;
+		margin: 15px 0;
+		font-size: 1.75em;
+		font-weight: normal;
+		line-height: 0.8em;
+		text-align: center;
+	}
+
+	.selected {
+		color: #E6AE00;
+		font-weight: bold;
+
+	}
+
+
+	#wrapper {
+		max-width: 940px;
+		margin: 0 auto;
+		padding: 0 5%;
+		font-family: 'Open Sans', sans-serif;
+		text-align: center;
+	}
+
+	.circles {
+		color: #9E3F00;
+		font-size: 50%;
+		position: relative;
+		bottom: .3em;
+		padding: 0 5px;
+	}
+
+/********************
+  COLOR STYLING
+********************/
+	/* header background */
+		#headWrap {
+			background-color: rgba(255,255,255,.5);
+			width: 100%;
+			height: 7em;
+		}
+
+	/* body */
+		body {
+			background-image: url("concrete_seamless/concrete_seamless.png");
+		}
+
+		p {
+			color: grey;
+		}
+			#personalStatement, #headWrap {
+				background-color: rgba(255,255,255,.5);
+				padding: 1em;
+				border-radius: .5em;
+				width: 100%;
+				height: 100%;
+			}
+
+	/* headers */
+		h1 {
+			color: #D46700;
+		}
+
+		h3 {
+			color: #9E3F00;
+		}
+
+	/* links */
+		a, a:hover {
+		  color: #0CCABA;
+		  text-decoration: none;
+		}
+
+/********************
+  IMAGE STYLING
+********************/
+	/* header background */
+		.horizontalPictures {
+			max-width: 100%;
+			border: #E6AE00 solid 2px;
+		}
+
+		.verticalPictures {
+			max-width: 100%;
+			border: #E6AE00 solid 2px;
+		}
+/********************
+  PHONE RESIZING
+********************/
+	@media (max-width: 600px) {
+		#horizontalDivider {
+			display: hidden;
+		}
+	}
